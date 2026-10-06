@@ -7,7 +7,7 @@ const MEDIA = {
       id: "plaque",
       title_fr: "Plaque de taraudage",
       title_en: "Threading Plate",
-      img: "plaque-taraudage.jpg.heic",
+      img: "plaque-taraudage.jpg",
       date: "Winter 2025",
       tools: "SolidWorks; Drill Press; Manual Tapping",
       desc_fr: "Fabrication d'une plaque de taraudage en acier; perçage, taraudage et vérification des tolérances.",
@@ -17,13 +17,13 @@ const MEDIA = {
         {fr:"Perçage et taraudage avec contrôle de tolérances", en:"Drilling and tapping with tolerance checks"},
         {fr:"Contrôle dimensionnel (calibre, pied à coulisse)", en:"Dimensional inspection (calipers, gauges)"}
       ],
-      files: ["plaque-taraudage.jpg.heic"]
+      files: ["plaque-taraudage.jpg"]
     },
     {
       id: "hammer_body",
       title_fr: "Corps du marteau",
       title_en: "Hammer Body",
-      img: "hammer-body-1.jpg.heic",
+      img: "hammer-body-1.jpg",
       date: "Winter 2025",
       tools: "Lathe machine; measurement tools",
       desc_fr: "Usinage du manche au tour: facing, turning, grooving. Travail sur la précision de l'axe et de la surface.",
@@ -33,13 +33,13 @@ const MEDIA = {
         {fr:"Contrôle de surface et finition", en:"Surface finish control"},
         {fr:"Lecture de plan et sécurité machine", en:"Reading drawings and machine safety"}
       ],
-      files: ["hammer-body-1.jpg.heic","hammer-body-2.jpg.heic"]
+      files: ["hammer-body-1.jpg","hammer-body-2.jpg"]
     },
     {
       id: "hammer_head",
       title_fr: "Tête du marteau",
       title_en: "Hammer Head",
-      img: "hammer-head-1.jpg.heic",
+      img: "hammer-head-1.jpg",
       date: "Winter 2025",
       tools: "Milling machine; SolidWorks",
       desc_fr: "Usinage complet de la tête au fraisage; contrôle précis des profondeurs et des profils.",
@@ -49,13 +49,13 @@ const MEDIA = {
         {fr:"Contrôle de profondeur et tolérances", en:"Depth control and tolerance verification"},
         {fr:"Préparation et serrage de la pièce", en:"Workholding and setup"}
       ],
-      files: ["hammer-head-1.jpg.heic","hammer-head-2.jpg.jpg"]
+      files: ["hammer-head-1.jpg","hammer-head-2.jpg"]
     },
     {
       id: "scan3d",
       title_fr: "Numérisation 3D",
       title_en: "3D Scanning",
-      img: "numerisation3d.jpg.JPG",
+      img: "numerisation3d.jpg",
       date: "Winter 2025",
       tools: "AMETEK 3D Scanner; point cloud software",
       desc_fr: "Acquisition de nuage de points et reconstruction 3D; reverse engineering. Plusieurs passes pour couvrir toute la surface et post‑traitement du nuage.",
@@ -65,13 +65,13 @@ const MEDIA = {
         {fr:"Nettoyage de données et reconstruction 3D", en:"Data cleanup and 3D reconstruction"},
         {fr:"Compréhension des limites de précision du scanner", en:"Understanding scanner accuracy limits"}
       ],
-      files: ["numerisation3d.jpg.JPG","numerisation3d-2.jpg.JPG","aileron1.jpg.HEIC","aileron2.jpg.JPG"]
+      files: ["numerisation3d.jpg","numerisation3d-2.jpg","aileron1.jpg","aileron2.jpg"]
     },
     {
       id: "phone_holder",
       title_fr: "Support de téléphone",
       title_en: "Phone Holder",
-      img: "printing2.jpg.HEIC",
+      img: "printing2.jpg",
       date: "Winter 2026",
       tools: "SolidWorks; Haas CNC Controller",
       desc_fr: "Conception et usinage complet; gestion des offsets G54 et dépannage en temps réel lors du chargement de fichier sur la machine.",
@@ -81,13 +81,13 @@ const MEDIA = {
         {fr:"Dépannage de fichiers et gestion d'outils", en:"File troubleshooting and tool management"},
         {fr:"Contrôle des paramètres de coupe", en:"Cutting parameter control"}
       ],
-      files: ["printing2.jpg.HEIC","printing.mp4.MP4"]
+      files: ["printing2.jpg","printing.mp4"]
     },
     {
       id: "f1_wing",
       title_fr: "Aile avant F1",
       title_en: "Formula 1 Front Wing",
-      img: "image-F1-frontwings1.jpg.HEIC",
+      img: "image-f1-frontwings1.jpg",
       date: "Winter 2026",
       tools: "SolidWorks; 3D Printer",
       desc_fr: "Conception avancée et préparation pour impression 3D; optimisation orientation/supports pour pièces fines.",
@@ -97,13 +97,13 @@ const MEDIA = {
         {fr:"Optimisation pour impression 3D", en:"3D print orientation and support optimization"},
         {fr:"Assemblage multi‑pièces", en:"Multi‑part assembly planning"}
       ],
-      files: ["image-F1-frontwings1.jpg.HEIC"]
+      files: ["image-f1-frontwings1.jpg"]
     },
     {
       id: "mg996r",
       title_fr: "Bras robotique MG996R",
       title_en: "MG996R Robotic Arm",
-      img: "robot-arm.jpg.HEIC",
+      img: "robot-arm.jpg",
       date: "Winter 2026",
       tools: "SolidWorks; MG996R servos",
       desc_fr: "Assemblage CAO et optimisation pour impression 3D; gestion des tolérances pour articulations et passages de câbles.",
@@ -113,17 +113,17 @@ const MEDIA = {
         {fr:"Tolérances pour ajustements mécaniques", en:"Tolerance planning for mechanical fits"},
         {fr:"Préparation de pièces pour impression", en:"Preparing parts for 3D printing"}
       ],
-      files: ["robot-arm.jpg.HEIC"]
+      files: ["robot-arm.jpg"]
     }
   ],
   videos: {
-    cnc: "cnc.mp4.MOV",
-    cnc2: "cnc2.mp4.MOV",
-    printing: "printing.mp4.MP4"
+    cnc: "cnc.mp4",
+    cnc2: "cnc2.mp4",
+    printing: "printing.mp4"
   },
   miscThumbs: [
-    "aileron1.jpg.HEIC","aileron2.jpg.JPG","cnc2.jpg.HEIC","hammer-body-2.jpg.heic",
-    "hammer-head-2.jpg.jpg","numerisation3d-2.jpg.JPG","piston1.jpg.HEIC","piston2.jpg.PNG","piston3.jpg.PNG"
+    "aileron1.jpg","aileron2.jpg","cnc2.jpg","hammer-body-2.jpg",
+    "hammer-head-2.jpg","numerisation3d-2.jpg","piston1.jpg","piston2.jpg","piston3.jpg"
   ]
 };
 
